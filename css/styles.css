@@ -10870,6 +10870,19 @@ body {
   height: 55px; /* Imposta l'altezza desiderata del bottone */
 }
 
+.black-background{
+  background-color: grey;
+  color: wheat;
+  width: 500px;
+}
+.black-background2{
+  background-color: whitesmoke;
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;

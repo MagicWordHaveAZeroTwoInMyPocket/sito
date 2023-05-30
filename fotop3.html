@@ -23,154 +23,226 @@
 </head>
 
 <body id="page-top">
-    <h2 class="text-center mt-0">Progetto di packet tracer</h2>
-    <hr class="divider" />
-    <div class="container-fluid p-0">
-        <div class="row g-0">
-            <div class="col-lg-10 col-sm-10">
-                <img class="img-fluid" src="assets/img/portfolio/thumbnails/13.jpeg" alt="..." />
-                <div class="portfolio-box-caption">
-                    <div class="col-lg-12">
-                        <div class="text-black-75 mb-4 sposta-riga">Packet tracer:</div>
-                        <p class="text-black-75 mb-4 sposta-riga">Configurazione di una rete per una via con 80
-                            abitazioni da collegare e configurare, tramite il software per la simulazione di reti Cisco
-                            Packet Tracer</p>
-                        <p class="text-black-75 mb-4 sposta-riga">Obbiettivi della prova:</p>
-                        <p>
-                        <ul>
-                            <li>
-                                <p class="text-black-75 mb-4">Ogni abitazione deve aavere una connessione ad internte
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-black-75 mb-4">Sistema di video sorveglianza che verrà controllata in un
-                                    area separata</p>
-                            </li>
-                            <li>
-                                <p class="text-black-75 mb-4">L'area sarà collegata alla rete pubblica tramite una
-                                    connessione a larga banda in fibra ottica</p>
-                            </li>
-                        </ul>
-                        </p>
-                        <section class="page-section">
-                            <div class="container px-4 px-lg-9">
-
-                                <h2 class="mt-0 sposta-riga sposta-centro">Progetto di packet tracer</h2>
-                                <p>
-                                <ul>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Ho creato una rete per una strada privata composta
-                                            da 80 ville, ciascuna strada dovrà
-                                            avere una rete differente.
-                                            Ogni singola abitazione sarà dotata di connessione Internet a larga banda e
-                                            internamente
-                                            saranno
-                                            predisposte due prese di rete per impiego generale, due prese dedicate alle
-                                            Smart TV e
-                                            la
-                                            connettività WiFi.</p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Si vuole dotare tutta l'area di un sistema di
-                                            videosorveglianza per scopo di controllo,
-                                            basato su
-                                            una rete distinta, posizionando lungo le due strade non meno di 8 telecamere
-                                            IP che
-                                            verranno
-                                            collegate ad un centro di vigilanza remoto.</p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4"> L'area sarà collegata tramite una connessione a
-                                            larga banda in fibra ottica.</p>
-                                    </li>
-
-                                    <li>
-                                        <p class="text-black-75 mb-4">Gli switch sono stati collegati tra loro per
-                                            garantire la ridondanza della rete.</p>
-                                    </li>
-
-                                    <li>
-                                        <p class="text-black-75 mb-4">Per consentire a tutti di accedere al sito web, ho
-                                            utilizzato la tecnica del “router on
-                                            a stick”.
-                                            Tuttavia, per motivi di sicurezza, ho configurato un firewall per impedire
-                                            ai pacchetti
-                                            malevoli di accdererci e quindi evitando che possano inviare pacchetti alle
-                                            altre
-                                            interfacce di rete.</p>
-                                    </li>
-                                </ul>
-                                </p>
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-9">
+                    <h2 class="text-center mt-0">Progetto MITM</h2>
+                    <hr class="divider" />
+                    <div class="container-fluid p-0">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-sm-6">
+                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpeg" alt="..." />
                             </div>
-                        </section>
-                        <section class="page-section">
-                            <div class="container px-3 px-lg-9">
-                                <h2 class="mt-0 sposta-riga">Durante la progettazione di questa rete ho imparato diverse
-                                    tecniche per la configurazione di una rete aziendale:</h2>
-                                <p>
-                                <ul>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Creazione e configurazione di VLAN per suddividere
-                                            la rete in segmenti logici.</p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Implementazione di collegamenti ridondanti per
-                                            garantire l'affidabilità della rete.</p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Configurazione del “router on a stick” per
-                                            consentire la comunicazione tra le VLAN.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Utilizzo di sottointerfacce di rete sul router per
-                                            il routing inter-VLAN.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="text-black-75 mb-4">Configurazione di misure di sicurezza come le ACL
-                                            per il controllo del traffico di rete.
-                                        </p>
-                                    </li>
-                                </ul>
-                                </p>
+                            <div class="portfolio-box-caption sposta-riga">
+                                <div class="col-lg-10 text-center">
+                                    <h2 class="text-white-75 mb-4">Man in the middle:</h2>
+                                    <p class="text-white-75 mb-4">Esperienza riguardante l'attacco Man in
+                                        the Middle, in cui
+                                        si è simulato un attacco informatico per intercettare le comunicazioni tra due
+                                        utenti.</p>
+                                    <p class="text-white-75 mb-4">Questa esercitazione era mirata nel farci
+                                        comprendere i nell'imcombere in possibili attacchi o comunque sui
+                                        rischi della sicurezza delle reti e nel sperimentare personalmente
+                                        l'intercettazione e la
+                                        manipolazione delle comunicazioni tra due parti, agendo come un osservatore non
+                                        tracciabile.</p>
+                                    <h2 class="text-white-75 mb-4 sposta-riga">Cosa è il MITM ?</h2>
+                                    <p>
+                                    <ul>
+                                        <li>
+                                            <p class="text-white-75 mb-4">Man in the Middle (MITM) è una tecnica in cui
+                                                un attaccante
+                                                intercetta e manipola la comunicazione tra due parti senza che se
+                                                ne accorgano.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-white-75 mb-4">L'attaccante si posiziona tra i due endpoint e
+                                                agisce come un
+                                                intermediario invisibile. Può monitorare, modificare o addirittura
+                                                iniettare dati nella
+                                                comunicazione. Questa tecnica mette a rischio la privacy e l'integrità
+                                                delle
+                                                informazioni trasmesse, poiché l'attaccante può accedere a informazioni
+                                                sensibili come
+                                                password, dati personali o transazioni finanziarie.</p>
+                                        </li>
+                                        <li>
+                                            <p class="text-white-75 mb-4">Per difendersi, è necessario utilizzare
+                                                protocolli
+                                                crittografici come SSL/TLS e metodi di autenticazione affidabili.</p>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                    <section class="page-section">
+                                        <div class="container px-4 px-lg-9">
+
+                                            <h2 class="text-white-75 mb-4">Descrizione dei processi:</h2>
+                                            <ul>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">
+                                                    <h3 class="text-white-75 mb-4">Passo 1: Attivazione dell'inoltro dei
+                                                        pacchetti IPv4</h3>
+                                                    <div class="centered-container">
+                                                        <pre class="black-background">
+sysctl -w net.ipv4.ip_forward=1
+                                                            </pre>
+                                                    </div>
+                                                    <p class="text-white-75 mb-4">Per consentire al nostro computer di
+                                                        agire come un router, si è eseguito il comando sopra riportato
+                                                        per attivare l'inoltro dei pacchetti IPv4.</p>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">
+                                                    <h3 class="text-white-75 mb-4">Passo 2: Intercezione dei pacchetti
+                                                        dalla vittima</h3>
+                                                    <div class="centered-container">
+                                                        <pre class="black-background">
+arpspoof -i [Nome dell'interfaccia di rete] -t [IP della vittima] [IP del router]
+                                                        </pre>
+                                                    </div>
+                                                    <p class="text-white-75 mb-4">Si utilizza il comando “arpspoof” per
+                                                        informare la vittima che siamo il router predefinito. Bisogna
+                                                        assicurarsi di sostituire “[Nome dell'interfaccia di rete]” con
+                                                        il nome corretto dell'interfaccia di rete e “[IP della vittima]”
+                                                        e “[IP del router]” con gli indirizzi IP corrispondenti.</p>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">
+                                                    <h3 class="text-white-75 mb-4">Passo 3: Intercezione dei pacchetti
+                                                        dal router</h3>
+                                                    </p>
+                                                    <div class="centered-container">
+                                                        <pre class="black-background">
+arpspoof -i [Nome dell'interfaccia di rete] -t [IP del router] [IP della vittima]    
+                                                    </pre>
+                                                    </div>
+                                                    <p class="text-white-75 mb-4">In un altro terminale, si esegue il
+                                                        comando “arpspoof” per informare il router che siamo la vittima.
+                                                    </p>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4">
+                                                    <h3 class="text-white-75 mb-4">Passo 4: Sniffing delle immagini
+                                                        dalla navigazione della vittima</h3>
+                                                    </p>
+                                                    <div class="centered-container">
+                                                        <pre class="black-background">
+driftnet -i [Nome dell'interfaccia di rete]                                                        
+                                                        </pre>
+                                                    </div>
+                                                    <p class="text-white-75 mb-4">Con il comando sopra riportato, si
+                                                        utilizza “driftnet” per catturare le immagini dalla navigazione
+                                                        della vittima.</p>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4">
+                                                    <h3 class="text-white-75 mb-4">Passo 5: Sniffaggio delle
+                                                        informazioni sugli URL dalla navigazione della nostra vittima
+                                                    </h3>
+                                                    </p>
+                                                    <div class="centered-container">
+                                                        <pre class="black-background">
+urlsnarf -i [Nome dell'interfaccia di rete]                                                        
+                                                            </pre>
+                                                    </div>
+                                                    <p class="text-white-75 mb-4">Infine si utilizza il comando
+                                                        “urlsnarf” per ottenere informazioni sugli URL visitati dalla
+                                                        vittima.</p>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Durante questo processo, è
+                                                        possibile anche aprire Wireshark per una visione più dettagliata
+                                                        dell'attacco.</p>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                    </section>
+                                    <section class="page-section">
+                                        <div class="container px-3 px-lg-9">
+                                            <h2 class="text-white-75 mb-4">Cosa ho imparato da quest'esperienza:</h2>
+                                            <p class="text-white-75 mb-4 sposta-riga">Durante questa prova, sono
+                                                riuscito nel comprendere/imparare diverse tecniche per proteggermi da
+                                                questi attacchi per esempio:</p>
+                                            <p>
+                                            <ul>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Sicurezza delle reti e difesa da
+                                                        attacchi informatici.</p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Evitare l'uso di reti Wi-Fi pubbliche
+                                                        non sicure.</p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Utilizzo di una VPN per una
+                                                        connessione crittografata.</p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Utilizzo di connessioni crittografate
+                                                        come HTTPS.</p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Aggiornamento regolare del firmware
+                                                        dei dispositivi di rete.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Monitoraggio della rete con
+                                                        dispositivi IPS/IDS.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p class="text-white-75 mb-4 sposta-riga">Configurazione del firewall per
+                                                        bloccare il traffico ARP sospetto.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <p class="text-white-75 mb-4 sposta-riga">Queste conoscenze mi aiuteranno a proteggermi e difendermi dalle potenziali minacce nel contesto delle reti informatiche.</p>
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <section class="page-section">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <a
-                            href="https://drive.google.com/drive/folders/1-qkdTmJWhq9FUz2vj50vki-z_JyLo2pw?usp=share_link">Per
-                            i file e video </a>
-                        <a class="btn  btn-primary btn-xl" href="index.html">Pagina Iniziale</a>
-                    </div>
+    </section>
+    <section class="page-section">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <a class="btn  btn-primary btn-xl" href="index.html">Pagina Iniziale</a>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5">
-                <div class="small text-center text-muted">Copyright &copy; 2023 - Make with passion by Andrea Rovea
-                </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2023 - Make with passion by
+                Andrea Rovea
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
